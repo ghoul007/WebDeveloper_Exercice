@@ -11,7 +11,7 @@
 
     btn.forEach(res => {
         res.addEventListener('click', () => {
-            if(document.querySelector('.toolClick')){
+            if (document.querySelector('.toolClick')) {
                 document.querySelector('.toolClick').remove();
             }
             res.querySelector('.tool').classList.add('toolClick');

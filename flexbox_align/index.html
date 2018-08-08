@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .flex {
+            display: flex;
+            width: 100vw;
+            justify-content: space-around;
+
+        }
+
+        a {
+            background: #795548;
+            padding: 10px;
+            margin: 10px;
+            color: white;
+            font-weight: bold;
+        }
+
+        @media all and (max-width: 500px) {
+            .flex {
+
+                flex-direction: column;
+            }
+
+            a {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="flex">
+        <a href="#">lorem1</a>
+        <a href="#">lorem2</a>
+        <a href="#">lorem3</a>
+        <a href="#">lorem4</a>
+        <a href="#">lorem5</a>
+    </div>
+</body>
+
+</html>

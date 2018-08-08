@@ -1,0 +1,2 @@
+# WebDeveloper_Exercice
+Whether you're actively looking to keep your coding skills sharp, it's important to refresh your understanding of the kinds of front-end and full-stack developer code that potential employers value.
