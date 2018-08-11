@@ -1,0 +1,42 @@
+.tool{
+    width: 100px;
+    position: relative;
+}
+
+.tool::before{
+    content: attr(data-tootltip);
+    z-index: 1;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    position: absolute;
+ 
+    display: none;
+    background: yellow
+}
+
+
+.tool:hover::before{
+    display: block
+}
+
+.tool[data-position='right']::before{
+    left: 100%;
+    top:0;
+}
+
+.tool[data-position='left']::before{
+    top: 0;
+    left:-100%;
+}
+
+.tool[data-position='top']::before{
+    top:100%;
+}
+
+.tool[data-position='botton']::before{
+    top:100%;
+    left:0
+}
+
+
