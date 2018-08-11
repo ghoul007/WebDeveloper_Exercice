@@ -1,0 +1,14 @@
+.boxs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 62vh;
+}
+
+
+.box{
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    border: 1px solid gray;
+}
